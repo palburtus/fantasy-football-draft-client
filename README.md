@@ -1,5 +1,5 @@
 # Fantasy Football Draft Client
-ReactJs client for displaying and handling the python json generator in the python_sandbox
+ReactJs client for displaying and handling the JSON generator in the python_sandbox
 
 [![Apache 2.0 badge](http://img.shields.io/badge/license-apache_2.0-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 ![node version badge](https://img.shields.io/badge/node-v12.11.1-blue?logo=Node.js "node version")
@@ -19,16 +19,18 @@ ReactJs client for displaying and handling the python json generator in the pyth
 - cd into client
 - npm install
 
-## Other Info
+## Loading Fantasy Data
+- run ```python --version``` to ensure a version of Python 3 is installed and configured
+- updates the following files and paths for the new draft season
+* Rotoworld current year's rankings ```rotoworld_2021_rankings.csv```
+* Last years draft resutls ```2020-Draft.csv``` (copy and paste from ESPN website)
+* Air yards ```airyards_2020.csv``` from profootballreference.com
+* Running back workload ```runningback_workload.csv```
+* Keepers ```2021_keepers.csv``` 
+* Average Draft Position ```2021_adp.csv```
+* Add one sample note ```notes.csv```
+- run ```main.py``` from the project [Football Directory of the Python Standbox](https://github.com/palburtus/python-sandbox/tree/master/football)
 
-### Steps already taken that were used to create this project
-- npm init (changed entry point to server.js, acceptted defaults for the rest) 
-- touch server.js
-- npx create-react-app client
-- npm install express
-- cd client
-- npm install concurrently
-- npm install --save react-router
-- npm install --save react-router-dom
-- npm install jquery
-- npm install universal-cookies
+## Run the Client Locally
+- cd into ```client``` directory
+- run ```npm run start```
