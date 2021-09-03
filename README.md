@@ -21,14 +21,14 @@ ReactJs client for displaying and handling the JSON generator in the python_sand
 
 ## Loading Fantasy Data
 - run ```python --version``` to ensure a version of Python 3 is installed and configured
-- updates the following files and paths for the new draft season
-* Rotoworld current year's rankings ```rotoworld_2021_rankings.csv```
-* Last years draft resutls ```2020-Draft.csv``` (copy and paste from ESPN website)
-* Air yards ```airyards_2020.csv``` from profootballreference.com
-* Running back workload ```runningback_workload.csv```
-* Keepers ```2021_keepers.csv``` 
-* Average Draft Position ```2021_adp.csv```
-* Add one sample note ```notes.csv```
+* updates the following files and paths for the new draft season
+  * Rotoworld current year's rankings ```rotoworld_2021_rankings.csv```
+  * Last years draft resutls ```2020-Draft.csv``` (copy and paste from ESPN website)
+  * Air yards ```airyards_2020.csv``` from profootballreference.com
+  * Running back workload ```runningback_workload.csv```
+  * Keepers ```2021_keepers.csv``` 
+  * Average Draft Position ```2021_adp.csv```
+  * Add one sample note ```notes.csv```
 - run ```main.py``` from the project [Football Directory of the Python Standbox](https://github.com/palburtus/python-sandbox/tree/master/football)
 
 ## Run the Client Locally
