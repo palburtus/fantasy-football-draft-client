@@ -2,6 +2,7 @@ import React from 'react';
 import {fs, writeFile, readFile} from 'browserify-fs';
 import dataTwenty from '../data_2020.json';
 import dataTwentyOne from '../data_2021.json';
+import dataTwentyTwo from '../data_2022.json';
 import notes from '../notes.json';
 import $ from "jquery";
 import { Modal, Button } from 'react-bootstrap';
@@ -11,7 +12,8 @@ class Home extends React.Component{
     constructor(props, context) {
         super(props, context);
        
-        let dataObj = JSON.parse(dataTwentyOne);
+        //let dataObj = JSON.parse(dataTwentyTwo);
+        let dataObj = dataTwentyTwo;
         
         let notesObj = notes;
         let notesMap = new Map();
@@ -94,7 +96,7 @@ class Home extends React.Component{
             console.log(key + " = " + value);
         }
         
-        this.downloadToFile(JSON.stringify(updatedNotes), 'ffnotes.json', 'text/plain');
+        this.downloadToFile(JSON.stringify(updatedNotes), '2022_notes.json', 'text/plain');
         //await writeFile('C://Users//patri//Documents//Sources//fantasy-football-client//client//src//notes.json', JSON.stringify(updatedNotes));
         
         /*writeFileAtomic('C://Users//patri//Documents//Sources//fantasy-football-client//client//src//notes.json', updatedNotes, {chown:{uid:100,gid:50}}, function (err) {
