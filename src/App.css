@@ -1,0 +1,48 @@
+
+
+.App {
+  
+}
+
+.employee-list-card{
+  margin-top: 25px;
+}
+
+.employee-list-button{
+  margin-left: 15px;
+}
+
+.red-text{
+  color: #ff0000;
+}
+
+.advertisement{
+  margin-top: 15px;
+  text-align: center;
+  background-color: #0000ff;
+  height: 70px;
+}
+
+
+.advertisement h5{
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.keeper{
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.tableFixHead          { overflow-y: auto; height: 100px; }
+.tableFixHead thead th { position: sticky; top: 65px; }
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }
+th     { background:#eee; }
+
+.search-form{
+  padding: 15px;
+  background-color: #ffffff;
+}
