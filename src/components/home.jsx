@@ -4,7 +4,7 @@ import notes from '../notes.json';
 import { Modal, Button, Row, Col} from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import * as notesRepository from '../firebaseFirestoreRepository.js';
 
 class Home extends React.Component{
     
@@ -16,6 +16,8 @@ class Home extends React.Component{
         
         let notesObj = notes;
         let notesMap = new Map();
+
+    
 
         notesObj.map(note => {
             notesMap.set(note.name, note.note);
@@ -39,6 +41,28 @@ class Home extends React.Component{
         this.handlePositionChange = this.handlePositionChange.bind(this);
         this.setDrafted = this.setDrafted.bind(this);
         this.toggleShowOnlyAvailable = this.toggleShowOnlyAvailable.bind(this);
+    }
+
+    componentDidMount(){
+       
+        notesRepository.getAllNotes()
+            .then(notes => {
+                console.log(notes);
+               
+                let notesMap = new Map();
+        
+                notes.documents.forEach(note => {
+                    notesMap.set(note.playerName, note.note); 
+                });
+        
+                this.setState({
+                    notesMap: notesMap,
+                    dbNotes: notes
+                });
+            })
+            .catch(error => {
+                console.log(error);
+            });
     }
 
     handleInputChange(event) {
@@ -84,6 +108,8 @@ class Home extends React.Component{
         let note = this.state.currentNote;
         let player = this.state.currentNotePlayer;
 
+        notesRepository.upsertNote(player, note);
+
         this.state.notesMap.set(player, note);
 
         let updatedNotes = [];
@@ -94,16 +120,10 @@ class Home extends React.Component{
             
             console.log(key + " = " + value);
         }
+
         
-        this.downloadToFile(JSON.stringify(updatedNotes), '2023_notes.json', 'text/plain');
-        //await writeFile('C://Users//patri//Documents//Sources//fantasy-football-client//client//src//notes.json', JSON.stringify(updatedNotes));
         
-        /*writeFileAtomic('C://Users//patri//Documents//Sources//fantasy-football-client//client//src//notes.json', updatedNotes, {chown:{uid:100,gid:50}}, function (err) {
-            debugger;
-            console.log(err);
-            if (err) throw err;
-            console.log('It\'s saved!');
-        });*/
+        //this.downloadToFile(JSON.stringify(updatedNotes), '2023_notes.json', 'text/plain');
         
     }
 
@@ -147,7 +167,7 @@ class Home extends React.Component{
         
 
         return(
-            <div className="form-inline sticky-top">
+            <div className="form-inline sticky-top pinn-form">
                 <Form>
                     <Row>
                         <Col xs={"auto"}>
@@ -183,9 +203,9 @@ class Home extends React.Component{
                             <th scope="col">POS</th>
                             <th scope="col">Team</th>
                             <th scope="col">ADP</th>
-                            <th scope="col">'22 Cost</th>
-                            <th scope="col">'220 Drafted Team</th>
+                            <th scope="col">Last Year Cost</th>
                             <th scope="col">Air Yards</th>
+                            <th scope='col'>WOPR</th>
                             <th scope="col">Rush Yards</th>
                             <th scope="col">YP Carry</th>
                             <th scope="col">TDs</th>
@@ -237,8 +257,8 @@ class Home extends React.Component{
                                                     <td>{item.nfl_team}</td>
                                                     <td>{item.adp}</td>
                                                     <td>{costCell}</td>
-                                                    <td>{item.drafted_by}</td>
                                                     <td>{item.air_yards}</td>
+                                                    <td>{item.wopr}</td>
                                                     <td>{item.rush_attempts}</td>
                                                     <td>{item.yards_per_carry}</td>
                                                     <td>{item.TDs}</td>
@@ -260,8 +280,8 @@ class Home extends React.Component{
                                             <td>{item.nfl_team}</td>
                                             <td>{item.adp}</td>
                                             <td>{costCell}</td>
-                                            <td>{item.drafted_by}</td>
                                             <td>{item.air_yards}</td>
+                                            <td>{item.wopr}</td>
                                             <td>{item.rush_attempts}</td>
                                             <td>{item.yards_per_carry}</td>
                                             <td>{item.TDs}</td>

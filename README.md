@@ -3,7 +3,7 @@
 ### Step 1: Compiling Data
 - Rotoworld / NBCSports Rankings
 - Rotoworld / NBCSports ADP
-- https://airyards.com/ air yarks
+- Air Yarks from https://ftnfantasy.com/nfl/air-yards?fppg=PPR&positions=WR&years=2023
 - copy draft from EPSN fantasy league page
 - update local file path names in script
 - manualy create the keepers file

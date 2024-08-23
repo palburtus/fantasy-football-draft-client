@@ -35,14 +35,21 @@
 }
 
 .tableFixHead          { overflow-y: auto; height: 100px; }
-.tableFixHead thead th { position: sticky; top: 65px; }
+.tableFixHead thead th { position: sticky; top: 20px; }
 
 /* Just common table stuff. Really. */
 table  { border-collapse: collapse; width: 100%; }
 th, td { padding: 8px 16px; }
 th     { background:#eee; }
 
+tr:hover {
+  background-color: #d6d0d0;
+}
+
+tr:hover td {
+  background-color: transparent; /* or #000 */
+}
 .search-form{
   padding: 15px;
-  background-color: #ffffff;
+  
 }
