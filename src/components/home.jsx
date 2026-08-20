@@ -1,5 +1,5 @@
 import React from 'react';
-import { availableYears, dataByYear } from '../yearData';
+import { availableYears, getDataForYear } from '../yearData';
 import { Modal, Button, Row, Col} from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -20,7 +20,7 @@ class Home extends React.Component{
             playerSearchValue: '',
             filterPosition: 'ALL',
             activeYear: 2026,
-            dataObj: dataByYear[2026],
+            dataObj: getDataForYear(2026),
             showOnlyAvailable: false
         }
         
@@ -79,7 +79,7 @@ class Home extends React.Component{
 
           this.setState({
                 activeYear: year,
-                dataObj: dataByYear[year] || [],
+                dataObj: getDataForYear(year),
                 notesMap: new Map(),
                 playerSearchValue: '',
                 filterPosition: 'ALL',
@@ -223,6 +223,7 @@ class Home extends React.Component{
                             <th scope="col">Player</th> 
                             <th scope="col">POS</th>
                             <th scope="col">Team</th>
+                            <th scope="col">Age</th>
                             <th scope="col">ADP</th>
                             <th scope="col">Air Yards</th>
                             <th scope='col'>WOPR</th>
@@ -270,11 +271,12 @@ class Home extends React.Component{
                                         
                                         if(this.state.showOnlyAvailable){
                                             if(item.is_available && !this.isKeeper(item)){
-                                                return  <tr className={rowClassName}>
-                                                    <td  className="table-col-sm" scope="row">{(i + 1)}</td>
+                                                return  <tr key={item.player_name} className={rowClassName}>
+                                                    <td  className="table-col-sm" scope="row">{item.displayRank || (i + 1)}</td>
                                                     <td>{item.player_name}</td>
                                                     <td>{item.position}</td>
                                                     <td>{item.nfl_team}</td>
+                                                    <td>{item.age}</td>
                                                     <td>{item.adp}</td>
                                                     <td>{item.air_yards}</td>
                                                     <td>{item.wopr}</td>
@@ -292,11 +294,12 @@ class Home extends React.Component{
                                             }
 
                                         }else {
-                                            return  <tr className={rowClassName}>
-                                            <td  className="table-col-sm" scope="row">{(i + 1)}</td>
+                                            return  <tr key={item.player_name} className={rowClassName}>
+                                            <td  className="table-col-sm" scope="row">{item.displayRank || (i + 1)}</td>
                                             <td>{item.player_name}</td>
                                             <td>{item.position}</td>
                                             <td>{item.nfl_team}</td>
+                                            <td>{item.age}</td>
                                             <td>{item.adp}</td>
                                             <td>{item.air_yards}</td>
                                             <td>{item.wopr}</td>
