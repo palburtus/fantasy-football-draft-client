@@ -11,8 +11,8 @@ class Home extends React.Component{
         'Target': '#1B5E20',      // dark green
         'Value': '#4CAF50',        // light green
         '3rd-Year': '#9CCC65',     // greenish-yellow
-        'Reach': '#F44336',        // red
         'TD Regression to Mean': '#FF7043',  // yellowish red
+        'Reach': '#F44336',        // red
         'Avoid': '#C62828'         // dark red
     }
     
