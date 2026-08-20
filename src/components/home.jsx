@@ -17,6 +17,7 @@ class Home extends React.Component{
             isEditingNotes: false,
             currentNotePlayer: '',
             currentNote: '',
+            selectedTags: new Set(),
             playerSearchValue: '',
             filterPosition: 'ALL',
             activeYear: 2026,
@@ -32,6 +33,7 @@ class Home extends React.Component{
         this.handleYearChange = this.handleYearChange.bind(this);
         this.setDrafted = this.setDrafted.bind(this);
         this.toggleShowOnlyAvailable = this.toggleShowOnlyAvailable.bind(this);
+        this.toggleTag = this.toggleTag.bind(this);
     }
 
     componentDidMount(){
@@ -83,7 +85,9 @@ class Home extends React.Component{
                 notesMap: new Map(),
                 playerSearchValue: '',
                 filterPosition: 'ALL',
-                showOnlyAvailable: false
+                showOnlyAvailable: false,
+                selectedTags: new Set(),
+                isEditingNotes: false
           });
           this.loadNotes(year);
       }
@@ -98,13 +102,36 @@ class Home extends React.Component{
      }
 
     openNotes(playerName, note){        
+        const { tags, noteText } = this.parseTagsFromNote(note);
         this.setState({
             isEditingNotes: true,
             currentNotePlayer: playerName,
-            currentNote: note
+            currentNote: noteText,
+            selectedTags: tags
         });       
-     
-    }    
+     }
+    
+    parseTagsFromNote(note) {
+        if (!note) return { tags: new Set(), noteText: '' };
+        const tagMatch = note.match(/^(#[\w]+(?:,\s*#[\w]+)*)\n?(.*)/s);
+        if (tagMatch) {
+            const tagString = tagMatch[1];
+            const noteText = tagMatch[2] || '';
+            const tags = new Set(tagString.split(',').map(t => t.trim()).filter(t => t.startsWith('#')).map(t => t.slice(1)));
+            return { tags, noteText };
+        }
+        return { tags: new Set(), noteText: note };
+    }
+    
+    toggleTag(tag) {
+        const newTags = new Set(this.state.selectedTags);
+        if (newTags.has(tag)) {
+            newTags.delete(tag);
+        } else {
+            newTags.add(tag);
+        }
+        this.setState({ selectedTags: newTags });
+    }
 
     saveNote(){
         this.setState({
@@ -113,10 +140,12 @@ class Home extends React.Component{
 
         let note = this.state.currentNote;
         let player = this.state.currentNotePlayer;
+        const tagPrefix = Array.from(this.state.selectedTags).map(t => '#' + t).join(', ');
+        const fullNote = tagPrefix ? (tagPrefix + '\n' + note) : note;
 
-        notesRepository.upsertNote(this.state.activeYear, player, note);
+        notesRepository.upsertNote(this.state.activeYear, player, fullNote);
 
-        this.state.notesMap.set(player, note);
+        this.state.notesMap.set(player, fullNote);
 
         let updatedNotes = [];
 
@@ -169,7 +198,10 @@ class Home extends React.Component{
 
     dismissNote(){
         this.setState({
-            isEditingNotes: false
+            isEditingNotes: false,
+            selectedTags: new Set(),
+            currentNote: '',
+            currentNotePlayer: ''
         });
     }
 
@@ -230,6 +262,7 @@ class Home extends React.Component{
                             <th scope="col">Rush Yards</th>
                             <th scope="col">YP Carry</th>
                             <th scope="col">TDs</th>
+                            <th scope="col">Tags</th>
                             <th scope="col">Note</th>
                             <th scope="col">Actions</th>
                             <th scope="col"></th>
@@ -267,6 +300,8 @@ class Home extends React.Component{
                                         }
                                         
                                         let note = this.state.notesMap.get(item.player_name);
+                                        const { tags, noteText } = this.parseTagsFromNote(note);
+                                        const tagDisplay = Array.from(tags).map(t => '#' + t).join(', ');
                                         
                                         
                                         if(this.state.showOnlyAvailable){
@@ -283,7 +318,8 @@ class Home extends React.Component{
                                                     <td>{item.rush_attempts}</td>
                                                     <td>{item.yards_per_carry}</td>
                                                     <td>{item.TDs}</td>
-                                                    <td>{note}</td>
+                                                    <td>{tagDisplay}</td>
+                                                    <td>{noteText}</td>
                                                     <td>
                                                         <button type="button" onClick={() => this.openNotes(item.player_name, note)} className="btn btn-info">Note</button>
                                                     </td>
@@ -306,7 +342,8 @@ class Home extends React.Component{
                                             <td>{item.rush_attempts}</td>
                                             <td>{item.yards_per_carry}</td>
                                             <td>{item.TDs}</td>
-                                            <td>{note}</td>
+                                            <td>{tagDisplay}</td>
+                                            <td>{noteText}</td>
                                             <td>
                                                 <button type="button" onClick={() => this.openNotes(item.player_name, note)} className="btn btn-info">Note</button>
                                             </td>
@@ -334,6 +371,29 @@ class Home extends React.Component{
                     <Modal.Title>{this.state.currentNotePlayer}</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
+                        <div className="form-group">
+                            <label>Tags</label>
+                            <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '16px'}}>
+                                {['breakout', 'regression', 'keeper', 'watch', 'injury'].map(tag => (
+                                    <button
+                                        key={tag}
+                                        type="button"
+                                        onClick={() => this.toggleTag(tag)}
+                                        style={{
+                                            padding: '6px 12px',
+                                            borderRadius: '20px',
+                                            border: '1px solid #ccc',
+                                            backgroundColor: this.state.selectedTags.has(tag) ? '#007bff' : '#f8f9fa',
+                                            color: this.state.selectedTags.has(tag) ? 'white' : 'black',
+                                            cursor: 'pointer',
+                                            fontWeight: this.state.selectedTags.has(tag) ? 'bold' : 'normal'
+                                        }}
+                                    >
+                                        #{tag}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
                         <div className="form-group">
                             <textarea className="form-control" id="message-text" name="currentNote" value={this.state.currentNote} onChange={this.handleInputChange}/>
                         </div>
