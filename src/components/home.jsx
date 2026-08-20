@@ -1,6 +1,6 @@
 import React from 'react';
 import { availableYears, getDataForYear } from '../yearData';
-import { Modal, Button, Row, Col} from 'react-bootstrap';
+import { Modal, Button, Row, Col, OverlayTrigger, Tooltip} from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.css';
 import * as notesRepository from '../firebaseFirestoreRepository.js';
@@ -226,7 +226,7 @@ class Home extends React.Component{
                             <th scope="col">Age</th>
                             <th scope="col">ADP</th>
                             <th scope="col">Air Yards</th>
-                            <th scope='col'>WOPR</th>
+                            <OverlayTrigger placement="bottom" overlay={<Tooltip id="wopr-tip">WOPR (Weighted Opportunity Rating) — combines target share and air yards share; a WOPR above 0.40 with mediocre stats signals unrealized upside</Tooltip>}><th scope='col' style={{cursor:'help'}}>WOPR</th></OverlayTrigger>
                             <th scope="col">Rush Yards</th>
                             <th scope="col">YP Carry</th>
                             <th scope="col">TDs</th>
