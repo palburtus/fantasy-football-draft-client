@@ -7,6 +7,15 @@ import * as notesRepository from '../firebaseFirestoreRepository.js';
 
 class Home extends React.Component{
     
+    tagColors = {
+        'Target': '#1B5E20',      // dark green
+        'Value': '#4CAF50',        // light green
+        '3rd-Year': '#9CCC65',     // greenish-yellow
+        'Reach': '#F44336',        // red
+        'TD Regression to Mean': '#FF7043',  // yellowish red
+        'Avoid': '#C62828'         // dark red
+    }
+    
     constructor(props, context) {
         super(props, context);
        
@@ -113,7 +122,7 @@ class Home extends React.Component{
     
     parseTagsFromNote(note) {
         if (!note) return { tags: new Set(), noteText: '' };
-        const tagMatch = note.match(/^(#[\w]+(?:,\s*#[\w]+)*)\n?(.*)/s);
+        const tagMatch = note.match(/^(#[^,\n]+(?:,\s*#[^,\n]+)*)\n?(.*)/s);
         if (tagMatch) {
             const tagString = tagMatch[1];
             const noteText = tagMatch[2] || '';
@@ -301,7 +310,23 @@ class Home extends React.Component{
                                         
                                         let note = this.state.notesMap.get(item.player_name);
                                         const { tags, noteText } = this.parseTagsFromNote(note);
-                                        const tagDisplay = Array.from(tags).map(t => '#' + t).join(', ');
+                                        const tagDisplay = (
+                                            <div style={{display: 'flex', flexWrap: 'wrap', gap: '4px'}}>
+                                                {Array.from(tags).map(t => (
+                                                    <span key={t} style={{
+                                                        padding: '4px 8px',
+                                                        borderRadius: '16px',
+                                                        backgroundColor: this.tagColors[t] || '#ccc',
+                                                        color: 'white',
+                                                        fontSize: '12px',
+                                                        fontWeight: 'bold',
+                                                        whiteSpace: 'nowrap'
+                                                    }}>
+                                                        {t}
+                                                    </span>
+                                                ))}
+                                            </div>
+                                        );
                                         
                                         
                                         if(this.state.showOnlyAvailable){
@@ -374,7 +399,7 @@ class Home extends React.Component{
                         <div className="form-group">
                             <label>Tags</label>
                             <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '16px'}}>
-                                {['breakout', 'regression', 'keeper', 'watch', 'injury'].map(tag => (
+                                {Object.keys(this.tagColors).map(tag => (
                                     <button
                                         key={tag}
                                         type="button"
@@ -382,14 +407,14 @@ class Home extends React.Component{
                                         style={{
                                             padding: '6px 12px',
                                             borderRadius: '20px',
-                                            border: '1px solid #ccc',
-                                            backgroundColor: this.state.selectedTags.has(tag) ? '#007bff' : '#f8f9fa',
+                                            border: '1px solid #999',
+                                            backgroundColor: this.state.selectedTags.has(tag) ? this.tagColors[tag] : '#f8f9fa',
                                             color: this.state.selectedTags.has(tag) ? 'white' : 'black',
                                             cursor: 'pointer',
                                             fontWeight: this.state.selectedTags.has(tag) ? 'bold' : 'normal'
                                         }}
                                     >
-                                        #{tag}
+                                        {tag}
                                     </button>
                                 ))}
                             </div>
