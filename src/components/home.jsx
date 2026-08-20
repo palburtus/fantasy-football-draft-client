@@ -203,7 +203,6 @@ class Home extends React.Component{
                             <th scope="col">POS</th>
                             <th scope="col">Team</th>
                             <th scope="col">ADP</th>
-                            <th scope="col">Last Year Cost</th>
                             <th scope="col">Air Yards</th>
                             <th scope='col'>WOPR</th>
                             <th scope="col">Rush Yards</th>
@@ -256,7 +255,6 @@ class Home extends React.Component{
                                                     <td>{item.position}</td>
                                                     <td>{item.nfl_team}</td>
                                                     <td>{item.adp}</td>
-                                                    <td>{costCell}</td>
                                                     <td>{item.air_yards}</td>
                                                     <td>{item.wopr}</td>
                                                     <td>{item.rush_attempts}</td>
@@ -279,7 +277,6 @@ class Home extends React.Component{
                                             <td>{item.position}</td>
                                             <td>{item.nfl_team}</td>
                                             <td>{item.adp}</td>
-                                            <td>{costCell}</td>
                                             <td>{item.air_yards}</td>
                                             <td>{item.wopr}</td>
                                             <td>{item.rush_attempts}</td>
