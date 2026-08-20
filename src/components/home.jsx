@@ -1,6 +1,5 @@
 import React from 'react';
-import dataTwentyTwo from '../data.json';
-import notes from '../notes.json';
+import { availableYears, dataByYear } from '../yearData';
 import { Modal, Button, Row, Col} from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -11,17 +10,7 @@ class Home extends React.Component{
     constructor(props, context) {
         super(props, context);
        
-        //let dataObj = JSON.parse(dataTwentyTwo);
-        let dataObj = dataTwentyTwo;
-        
-        let notesObj = notes;
         let notesMap = new Map();
-
-    
-
-        notesObj.map(note => {
-            notesMap.set(note.name, note.note);
-        })
 
         this.state = {
             notesMap: notesMap,
@@ -30,7 +19,8 @@ class Home extends React.Component{
             currentNote: '',
             playerSearchValue: '',
             filterPosition: 'ALL',
-            dataObj: dataObj,
+            activeYear: 2026,
+            dataObj: dataByYear[2026],
             showOnlyAvailable: false
         }
         
@@ -39,16 +29,18 @@ class Home extends React.Component{
         this.dismissNote = this.dismissNote.bind(this);
         this.handleInputChange = this.handleInputChange.bind(this);
         this.handlePositionChange = this.handlePositionChange.bind(this);
+        this.handleYearChange = this.handleYearChange.bind(this);
         this.setDrafted = this.setDrafted.bind(this);
         this.toggleShowOnlyAvailable = this.toggleShowOnlyAvailable.bind(this);
     }
 
     componentDidMount(){
-       
-        notesRepository.getAllNotes()
+        this.loadNotes(this.state.activeYear);
+    }
+
+    loadNotes(year){
+        notesRepository.getAllNotes(year)
             .then(notes => {
-                console.log(notes);
-               
                 let notesMap = new Map();
         
                 notes.documents.forEach(note => {
@@ -82,6 +74,20 @@ class Home extends React.Component{
         this.setState({ filterPosition: position });
      }
 
+      handleYearChange(e){
+          const year = Number(e.target.value);
+
+          this.setState({
+                activeYear: year,
+                dataObj: dataByYear[year] || [],
+                notesMap: new Map(),
+                playerSearchValue: '',
+                filterPosition: 'ALL',
+                showOnlyAvailable: false
+          });
+          this.loadNotes(year);
+      }
+
      toggleShowOnlyAvailable(){
         
         let toggledValue = !this.state.showOnlyAvailable;
@@ -108,7 +114,7 @@ class Home extends React.Component{
         let note = this.state.currentNote;
         let player = this.state.currentNotePlayer;
 
-        notesRepository.upsertNote(player, note);
+        notesRepository.upsertNote(this.state.activeYear, player, note);
 
         this.state.notesMap.set(player, note);
 
@@ -153,6 +159,12 @@ class Home extends React.Component{
         });
 
     }
+
+    isKeeper(item){
+        return Object.keys(item)
+            .filter(key => key.endsWith('_keeper'))
+            .some(key => item[key] === 'True' || item[key] === true);
+    }
   
 
     dismissNote(){
@@ -168,9 +180,18 @@ class Home extends React.Component{
 
         return(
             <div className="form-inline sticky-top pinn-form">
-                <Form>
-                    <Row>
-                        <Col xs={"auto"}>
+                <Form className="draft-controls-form">
+                    <Row className="draft-controls align-items-center">
+                        <Col xs={"auto"} className="draft-year-control d-flex align-items-center gap-2">
+                            <label className="mb-0" htmlFor="draft-year">Year</label>
+                            <div className="year-select-wrapper">
+                                <select id="draft-year" className="form-control" value={this.state.activeYear} onChange={this.handleYearChange}>
+                                    {availableYears.map(year => <option key={year} value={year}>{year}</option>)}
+                                </select>
+                                <span className="year-dropdown-arrow" aria-hidden="true">&#9662;</span>
+                            </div>
+                        </Col>
+                        <Col xs={"auto"} className="d-flex align-items-center">
                     
                          <input type="text" className="form-control" name="playerSearchValue" onChange={this.handleInputChange} placeholder="Player Name" value={this.state.playerSearchValue}/>
                    
@@ -185,8 +206,8 @@ class Home extends React.Component{
                             </select>
                         </Col>
                         <Col xs={"auto"}>
-                            <input className="form-check-input" type="checkbox" id="autoSizingCheck2" onChange={this.toggleShowOnlyAvailable} checked={this.state.showOnlyAvailable}/>
-                            <label className="form-check-label" for="autoSizingCheck2">
+                            <input className="form-check-input availability-checkbox" type="checkbox" id="autoSizingCheck2" onChange={this.toggleShowOnlyAvailable} checked={this.state.showOnlyAvailable}/>
+                            <label className="form-check-label" htmlFor="autoSizingCheck2">
                             Show Available Only?
                             </label>
                         </Col>
@@ -225,7 +246,7 @@ class Home extends React.Component{
                                         let costCell = item.cost;
                                         let rowClassName = ''
                                         
-                                        if(item.is_2020_keeper === "True"){
+                                        if(this.isKeeper(item)){
                                             costCell = item.cost + ' (k)' 
                                         }
         
@@ -238,7 +259,7 @@ class Home extends React.Component{
                                             buttonText = "Undo";
                                         }
 
-                                        if(item.is_2020_keeper === "True"){
+                                        if(this.isKeeper(item)){
                                             rowClassName = "table-danger";
                                             buttonClass = 'hidden';
                                             buttonText = '';
@@ -248,7 +269,7 @@ class Home extends React.Component{
                                         
                                         
                                         if(this.state.showOnlyAvailable){
-                                            if(item.is_available && item.is_2020_keeper === "False"){
+                                            if(item.is_available && !this.isKeeper(item)){
                                                 return  <tr className={rowClassName}>
                                                     <td  className="table-col-sm" scope="row">{(i + 1)}</td>
                                                     <td>{item.player_name}</td>

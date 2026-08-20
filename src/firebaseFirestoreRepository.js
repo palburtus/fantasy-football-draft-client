@@ -12,7 +12,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
 
-export const getAllNotes = () => {
+export const getAllNotes = (year) => {
     
     return new Promise((resolve, reject) => {
     
@@ -21,8 +21,11 @@ export const getAllNotes = () => {
             collection.forEach(doc => {
                 
                 let data = doc.data();
-                
-                documents.push(data);
+
+                // Notes created before seasons were introduced are the 2025 notes.
+                if ((!data.year && Number(year) === 2025) || Number(data.year) === Number(year)) {
+                    documents.push(data);
+                }
             });
         
             if(documents){
@@ -37,10 +40,10 @@ export const getAllNotes = () => {
     });
 }
 
-export const upsertNote = (playerName, note) => {
+export const upsertNote = (year, playerName, note) => {
     
-    let obj = {playerName: playerName, note: note};
-    return db.collection('notes').doc(playerName).set(obj, { merge: false });        
+    let obj = {year: Number(year), playerName: playerName, note: note};
+    return db.collection('notes').doc(`${year}_${playerName}`).set(obj, { merge: false });        
 }
 
 

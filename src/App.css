@@ -53,3 +53,36 @@ tr:hover td {
   padding: 15px;
   
 }
+
+.draft-controls-form {
+  padding: 8px 0;
+}
+
+.draft-controls {
+  flex-wrap: wrap;
+}
+
+.draft-year-control {
+  margin-left: 15px;
+}
+
+.year-select-wrapper {
+  position: relative;
+}
+
+.year-select-wrapper select {
+  padding-right: 28px;
+  appearance: none;
+}
+
+.year-dropdown-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.availability-checkbox {
+  margin-right: 8px;
+}

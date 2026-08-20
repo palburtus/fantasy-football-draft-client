@@ -1,8 +1,14 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+jest.mock('./firebaseFirestoreRepository', () => ({
+  getAllNotes: () => Promise.resolve({ documents: [] }),
+  upsertNote: jest.fn()
+}));
+
+test('defaults to the 2026 draft view', async () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByLabelText(/^year$/i)).toHaveValue('2026');
+  expect(screen.getByRole('option', { name: '2025' })).toBeInTheDocument();
+  await waitFor(() => expect(screen.getByLabelText(/^year$/i)).toHaveValue('2026'));
 });
