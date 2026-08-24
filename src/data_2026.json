@@ -13,7 +13,8 @@
     "yards_per_carry": "5",
     "TDs": 18,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "243"
   },
   {
     "player_name": "Bijan Robinson",
@@ -29,7 +30,8 @@
     "yards_per_carry": "5.1",
     "TDs": 11,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "287"
   },
   {
     "player_name": "Ja'Marr Chase",
@@ -45,7 +47,8 @@
     "yards_per_carry": "",
     "TDs": 8,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Puka Nacua",
@@ -61,7 +64,8 @@
     "yards_per_carry": "",
     "TDs": 14,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Jaxon Smith-Njigba",
@@ -77,7 +81,8 @@
     "yards_per_carry": "",
     "TDs": 12,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Christian McCaffrey",
@@ -93,7 +98,8 @@
     "yards_per_carry": "3.8",
     "TDs": 19,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": "337"
   },
   {
     "player_name": "Amon-Ra St. Brown",
@@ -109,13 +115,14 @@
     "yards_per_carry": "",
     "TDs": 11,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "James Cook",
     "nfl_team": "BUF",
     "position": "RB",
-    "adp": 13.0,
+    "adp": 13,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -125,7 +132,8 @@
     "yards_per_carry": "5.1",
     "TDs": 14,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "348"
   },
   {
     "player_name": "CeeDee Lamb",
@@ -141,7 +149,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Justin Jefferson",
@@ -157,7 +166,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Jonathan Taylor",
@@ -173,7 +183,8 @@
     "yards_per_carry": "4.9",
     "TDs": 20,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "323"
   },
   {
     "player_name": "Kenneth Walker",
@@ -189,7 +200,8 @@
     "yards_per_carry": "4.7",
     "TDs": 9,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": "286"
   },
   {
     "player_name": "Ashton Jeanty",
@@ -205,13 +217,14 @@
     "yards_per_carry": "3.7",
     "TDs": 10,
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": "266"
   },
   {
     "player_name": "Saquon Barkley",
     "nfl_team": "PHI",
     "position": "RB",
-    "adp": 17.0,
+    "adp": 17,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -221,7 +234,8 @@
     "yards_per_carry": "4.1",
     "TDs": 9,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": "306"
   },
   {
     "player_name": "Drake London",
@@ -237,7 +251,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "De'Von Achane",
@@ -253,7 +268,8 @@
     "yards_per_carry": "5.7",
     "TDs": 12,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "238"
   },
   {
     "player_name": "Derrick Henry",
@@ -269,7 +285,8 @@
     "yards_per_carry": "5.2",
     "TDs": 16,
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": "307"
   },
   {
     "player_name": "Chase Brown",
@@ -285,7 +302,8 @@
     "yards_per_carry": "4.4",
     "TDs": 11,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "232"
   },
   {
     "player_name": "A.J. Brown",
@@ -301,13 +319,14 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Malik Nabers",
     "nfl_team": "NYG",
     "position": "WR",
-    "adp": 38.0,
+    "adp": 38,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -317,7 +336,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Brock Bowers",
@@ -333,7 +353,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Nico Collins",
@@ -349,13 +370,14 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Omarion Hampton",
     "nfl_team": "LAC",
     "position": "RB",
-    "adp": 22.0,
+    "adp": 22,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -365,7 +387,8 @@
     "yards_per_carry": "4.4",
     "TDs": 5,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": "125"
   },
   {
     "player_name": "DeVonta Smith",
@@ -381,7 +404,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Trey McBride",
@@ -397,7 +421,8 @@
     "yards_per_carry": "",
     "TDs": 11,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "George Pickens",
@@ -413,7 +438,8 @@
     "yards_per_carry": "",
     "TDs": 9,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Rashee Rice",
@@ -429,7 +455,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Chris Olave",
@@ -445,7 +472,8 @@
     "yards_per_carry": "",
     "TDs": 9,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Jeremiyah Love",
@@ -461,7 +489,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 21
+    "age": 21,
+    "rush_att": ""
   },
   {
     "player_name": "Josh Allen",
@@ -477,7 +506,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Zay Flowers",
@@ -493,13 +523,14 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Tee Higgins",
     "nfl_team": "CIN",
     "position": "WR",
-    "adp": 58.0,
+    "adp": 58,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -509,7 +540,8 @@
     "yards_per_carry": "",
     "TDs": 11,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Tetairoa McMillan",
@@ -525,7 +557,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Colston Loveland",
@@ -541,7 +574,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Garrett Wilson",
@@ -557,7 +591,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Breece Hall",
@@ -573,7 +608,8 @@
     "yards_per_carry": "4.4",
     "TDs": 5,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": "243"
   },
   {
     "player_name": "Jaylen Waddle",
@@ -589,7 +625,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Josh Jacobs",
@@ -605,7 +642,8 @@
     "yards_per_carry": "3.9",
     "TDs": 14,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": "253"
   },
   {
     "player_name": "Kyren Williams",
@@ -621,7 +659,8 @@
     "yards_per_carry": "4.7",
     "TDs": 17,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Javonte Williams",
@@ -637,7 +676,8 @@
     "yards_per_carry": "4.8",
     "TDs": 13,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "252"
   },
   {
     "player_name": "Emeka Egbuka",
@@ -653,7 +693,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Lamar Jackson",
@@ -669,7 +710,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Ladd McConkey",
@@ -685,7 +727,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Luther Burden",
@@ -701,7 +744,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Travis Etienne",
@@ -717,7 +761,8 @@
     "yards_per_carry": "4.3",
     "TDs": 14,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "270"
   },
   {
     "player_name": "Davante Adams",
@@ -733,13 +778,14 @@
     "yards_per_carry": "",
     "TDs": 15,
     "is_available": true,
-    "age": 33
+    "age": 33,
+    "rush_att": ""
   },
   {
     "player_name": "Cam Skattebo",
     "nfl_team": "NYG",
     "position": "RB",
-    "adp": 43.0,
+    "adp": 43,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -749,7 +795,8 @@
     "yards_per_carry": "4.1",
     "TDs": 7,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "101"
   },
   {
     "player_name": "Drake Maye",
@@ -765,7 +812,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Mike Evans",
@@ -781,7 +829,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": ""
   },
   {
     "player_name": "D'Andre Swift",
@@ -797,7 +846,8 @@
     "yards_per_carry": "4.8",
     "TDs": 11,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "255"
   },
   {
     "player_name": "Jayden Daniels",
@@ -813,7 +863,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "David Montgomery",
@@ -829,7 +880,8 @@
     "yards_per_carry": "4.5",
     "TDs": 8,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": "158"
   },
   {
     "player_name": "Quinshon Judkins",
@@ -845,7 +897,8 @@
     "yards_per_carry": "3.6",
     "TDs": 7,
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": "230"
   },
   {
     "player_name": "Jameson Williams",
@@ -861,13 +914,14 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": "252"
   },
   {
     "player_name": "Christian Watson",
     "nfl_team": "GB",
     "position": "WR",
-    "adp": 102.0,
+    "adp": 102,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -877,7 +931,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Bhayshul Tuten",
@@ -893,7 +948,8 @@
     "yards_per_carry": "4.1",
     "TDs": 7,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "87"
   },
   {
     "player_name": "Jalen Hurts",
@@ -909,7 +965,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "DJ Moore",
@@ -925,13 +982,14 @@
     "yards_per_carry": "",
     "TDs": 9,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Bucky Irving",
     "nfl_team": "TB",
     "position": "RB",
-    "adp": 56.0,
+    "adp": 56,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -941,7 +999,8 @@
     "yards_per_carry": "3.4",
     "TDs": 4,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "173"
   },
   {
     "player_name": "Terry McLaurin",
@@ -957,7 +1016,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Joe Burrow",
@@ -973,7 +1033,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Tyler Warren",
@@ -989,7 +1050,8 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Rome Odunze",
@@ -1005,7 +1067,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Jadarian Price",
@@ -1021,7 +1084,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "TreVeyon Henderson",
@@ -1037,7 +1101,8 @@
     "yards_per_carry": "4.7",
     "TDs": 10,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": "210"
   },
   {
     "player_name": "Rhamondre Stevenson",
@@ -1053,7 +1118,8 @@
     "yards_per_carry": "4.4",
     "TDs": 10,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": "188"
   },
   {
     "player_name": "Parker Washington",
@@ -1069,7 +1135,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Carnell Tate",
@@ -1085,7 +1152,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 21
+    "age": 21,
+    "rush_att": ""
   },
   {
     "player_name": "Caleb Williams",
@@ -1101,7 +1169,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Tucker Kraft",
@@ -1117,7 +1186,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Justin Herbert",
@@ -1133,7 +1203,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Brian Thomas",
@@ -1149,7 +1220,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Harold Fannin",
@@ -1165,7 +1237,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Jaylen Warren",
@@ -1181,7 +1254,8 @@
     "yards_per_carry": "4.5",
     "TDs": 8,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "223"
   },
   {
     "player_name": "Trevor Lawrence",
@@ -1197,7 +1271,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Josh Downs",
@@ -1213,7 +1288,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Jayden Reed",
@@ -1229,13 +1305,14 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "DK Metcalf",
     "nfl_team": "PIT",
     "position": "WR",
-    "adp": 88.0,
+    "adp": 88,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -1245,7 +1322,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Rico Dowdle",
@@ -1261,7 +1339,8 @@
     "yards_per_carry": "4.5",
     "TDs": 7,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": "241"
   },
   {
     "player_name": "Chris Godwin",
@@ -1277,13 +1356,14 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Marvin Harrison",
     "nfl_team": "ARI",
     "position": "WR",
-    "adp": 92.0,
+    "adp": 92,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -1293,7 +1373,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 53
+    "age": 53,
+    "rush_att": ""
   },
   {
     "player_name": "Jaxson Dart",
@@ -1309,7 +1390,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Tony Pollard",
@@ -1325,7 +1407,8 @@
     "yards_per_carry": "4.5",
     "TDs": 5,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": "242"
   },
   {
     "player_name": "Dak Prescott",
@@ -1341,7 +1424,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 33
+    "age": 33,
+    "rush_att": ""
   },
   {
     "player_name": "Jonathon Brooks",
@@ -1357,7 +1441,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "RJ Harvey",
@@ -1373,7 +1458,8 @@
     "yards_per_carry": "3.6",
     "TDs": 12,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": "165"
   },
   {
     "player_name": "Kyle Pitts",
@@ -1389,7 +1475,8 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Brock Purdy",
@@ -1405,7 +1492,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Sam LaPorta",
@@ -1421,7 +1509,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Alec Pierce",
@@ -1437,7 +1526,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Makai Lemon",
@@ -1453,7 +1543,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Chuba Hubbard",
@@ -1469,7 +1560,8 @@
     "yards_per_carry": "3.8",
     "TDs": 6,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "147"
   },
   {
     "player_name": "Blake Corum",
@@ -1485,7 +1577,8 @@
     "yards_per_carry": "5.1",
     "TDs": 6,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "J.K. Dobbins",
@@ -1501,7 +1594,8 @@
     "yards_per_carry": "5",
     "TDs": 4,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "153"
   },
   {
     "player_name": "Jakobi Meyers",
@@ -1517,13 +1611,14 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "George Kittle",
     "nfl_team": "SF",
     "position": "TE",
-    "adp": 98.0,
+    "adp": 98,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -1533,7 +1628,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": ""
   },
   {
     "player_name": "Stefon Diggs",
@@ -1549,7 +1645,8 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": ""
   },
   {
     "player_name": "Courtland Sutton",
@@ -1565,7 +1662,8 @@
     "yards_per_carry": "",
     "TDs": 8,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Michael Wilson",
@@ -1581,7 +1679,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Kenneth Gainwell",
@@ -1597,7 +1696,8 @@
     "yards_per_carry": "4.6",
     "TDs": 8,
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": "120"
   },
   {
     "player_name": "Patrick Mahomes",
@@ -1613,7 +1713,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Quentin Johnston",
@@ -1629,7 +1730,8 @@
     "yards_per_carry": "",
     "TDs": 8,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Michael Pittman",
@@ -1645,7 +1747,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Bo Nix",
@@ -1661,7 +1764,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Kyler Murray",
@@ -1677,7 +1781,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Jordan Addison",
@@ -1693,7 +1798,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Jordyn Tyson",
@@ -1709,7 +1815,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "KC Concepcion",
@@ -1725,13 +1832,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 21
+    "age": 21,
+    "rush_att": ""
   },
   {
     "player_name": "Jordan Mason",
     "nfl_team": "MIN",
     "position": "RB",
-    "adp": 157.0,
+    "adp": 157,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -1741,7 +1849,8 @@
     "yards_per_carry": "4.8",
     "TDs": 6,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "159"
   },
   {
     "player_name": "Jacory Croskey-Merritt",
@@ -1757,7 +1866,8 @@
     "yards_per_carry": "4.6",
     "TDs": 8,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": "175"
   },
   {
     "player_name": "Wan'Dale Robinson",
@@ -1773,7 +1883,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Matthew Stafford",
@@ -1789,7 +1900,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 38
+    "age": 38,
+    "rush_att": ""
   },
   {
     "player_name": "Jared Goff",
@@ -1805,7 +1917,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Travis Kelce",
@@ -1821,7 +1934,8 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": 36
+    "age": 36,
+    "rush_att": ""
   },
   {
     "player_name": "Kyle Monangai",
@@ -1837,7 +1951,8 @@
     "yards_per_carry": "4.5",
     "TDs": 5,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "190"
   },
   {
     "player_name": "Aaron Jones",
@@ -1853,7 +1968,8 @@
     "yards_per_carry": "4.2",
     "TDs": 3,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": "132"
   },
   {
     "player_name": "Rachaad White",
@@ -1869,7 +1985,8 @@
     "yards_per_carry": "4.3",
     "TDs": 4,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "132"
   },
   {
     "player_name": "Jordan Love",
@@ -1885,7 +2002,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Romeo Doubs",
@@ -1901,7 +2019,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Dalton Kincaid",
@@ -1917,7 +2036,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Malik Willis",
@@ -1933,7 +2053,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Chris Rodriguez",
@@ -1949,7 +2070,8 @@
     "yards_per_carry": "4.5",
     "TDs": 6,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "112"
   },
   {
     "player_name": "Mark Andrews",
@@ -1965,7 +2087,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Matthew Golden",
@@ -1981,7 +2104,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Dallas Goedert",
@@ -1997,7 +2121,8 @@
     "yards_per_carry": "",
     "TDs": 13,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "De'Zhaun Stribling",
@@ -2013,7 +2138,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Baker Mayfield",
@@ -2029,7 +2155,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Jake Ferguson",
@@ -2045,7 +2172,8 @@
     "yards_per_carry": "",
     "TDs": 8,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Isaiah Likely",
@@ -2061,13 +2189,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Xavier Worthy",
     "nfl_team": "KC",
     "position": "WR",
-    "adp": 137.0,
+    "adp": 137,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -2077,7 +2206,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Tyler Shough",
@@ -2093,7 +2223,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Omar Cooper",
@@ -2109,7 +2240,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Keaton Mitchell",
@@ -2125,7 +2257,8 @@
     "yards_per_carry": "5.8",
     "TDs": 1,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "59"
   },
   {
     "player_name": "Juwan Johnson",
@@ -2141,7 +2274,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Khalil Shakir",
@@ -2157,7 +2291,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Tyler Allgeier",
@@ -2173,7 +2308,8 @@
     "yards_per_carry": "3.6",
     "TDs": 8,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "143"
   },
   {
     "player_name": "MarShawn Lloyd",
@@ -2189,7 +2325,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Chig Okonkwo",
@@ -2205,7 +2342,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Denzel Boston",
@@ -2221,13 +2359,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Rashid Shaheed",
     "nfl_team": "SEA",
     "position": "WR",
-    "adp": 158.0,
+    "adp": 158,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -2237,7 +2376,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Sam Darnold",
@@ -2253,7 +2393,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Jalen Coker",
@@ -2269,13 +2410,14 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "C.J. Stroud",
     "nfl_team": "HOU",
     "position": "QB",
-    "adp": 166.0,
+    "adp": 166,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -2285,13 +2427,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Deebo Samuel",
     "nfl_team": "SF",
     "position": "WR",
-    "adp": 136.0,
+    "adp": 136,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -2301,7 +2444,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Travis Hunter",
@@ -2317,7 +2461,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Jo'quavioius Marks",
@@ -2333,7 +2478,8 @@
     "yards_per_carry": "3.6",
     "TDs": 6,
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": "229"
   },
   {
     "player_name": "Hunter Henry",
@@ -2349,7 +2495,8 @@
     "yards_per_carry": "",
     "TDs": 8,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Tyjae Spears",
@@ -2365,7 +2512,8 @@
     "yards_per_carry": "3.9",
     "TDs": 2,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": "72"
   },
   {
     "player_name": "Tank Bigsby",
@@ -2381,7 +2529,8 @@
     "yards_per_carry": "5.6",
     "TDs": 2,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": "67"
   },
   {
     "player_name": "Zach Charbonnet",
@@ -2397,7 +2546,8 @@
     "yards_per_carry": "4",
     "TDs": 12,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": "189"
   },
   {
     "player_name": "Brenton Strange",
@@ -2413,7 +2563,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Houston Texans",
@@ -2429,7 +2580,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Oronde Gadsden",
@@ -2445,7 +2597,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 55
+    "age": 55,
+    "rush_att": ""
   },
   {
     "player_name": "Kenyon Sadiq",
@@ -2461,7 +2614,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 21
+    "age": 21,
+    "rush_att": ""
   },
   {
     "player_name": "Jonah Coleman",
@@ -2477,7 +2631,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Denver Broncos",
@@ -2493,13 +2648,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Daniel Jones",
     "nfl_team": "IND",
     "position": "QB",
-    "adp": 160.0,
+    "adp": 160,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -2509,13 +2665,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Isiah Pacheco",
     "nfl_team": "DET",
     "position": "RB",
-    "adp": 158.0,
+    "adp": 158,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -2525,7 +2682,8 @@
     "yards_per_carry": "3.9",
     "TDs": 2,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "118"
   },
   {
     "player_name": "Seattle Seahawks",
@@ -2541,7 +2699,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Dalton Schultz",
@@ -2557,7 +2716,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Jauan Jennings",
@@ -2573,7 +2733,8 @@
     "yards_per_carry": "",
     "TDs": 9,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Jayden Higgins",
@@ -2589,7 +2750,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Cam Ward",
@@ -2605,7 +2767,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Los Angeles Rams",
@@ -2621,7 +2784,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Jalen McMillan",
@@ -2637,7 +2801,8 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Tyrone Tracy",
@@ -2653,7 +2818,8 @@
     "yards_per_carry": "4.2",
     "TDs": 4,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "176"
   },
   {
     "player_name": "Brian Robinson",
@@ -2669,7 +2835,8 @@
     "yards_per_carry": "4.3",
     "TDs": 2,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "95"
   },
   {
     "player_name": "Terrance Ferguson",
@@ -2685,7 +2852,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Adonai Mitchell",
@@ -2701,7 +2869,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Alvin Kamara",
@@ -2717,7 +2886,8 @@
     "yards_per_carry": "3.6",
     "TDs": 1,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": "131"
   },
   {
     "player_name": "Calvin Ridley",
@@ -2733,7 +2903,8 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Emmett Johnson",
@@ -2749,7 +2920,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Philadelphia Eagles",
@@ -2765,7 +2937,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Dylan Sampson",
@@ -2781,7 +2954,8 @@
     "yards_per_carry": "2.7",
     "TDs": 2,
     "is_available": true,
-    "age": 21
+    "age": 21,
+    "rush_att": "65"
   },
   {
     "player_name": "Brandon Aubrey",
@@ -2797,7 +2971,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Mike Washington",
@@ -2813,7 +2988,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 73
+    "age": 73,
+    "rush_att": ""
   },
   {
     "player_name": "Los Angeles Chargers",
@@ -2829,7 +3005,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Pat Bryant",
@@ -2845,7 +3022,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Caleb Douglas",
@@ -2861,7 +3039,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Minnesota Vikings",
@@ -2877,7 +3056,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Jalen Nailor",
@@ -2893,7 +3073,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Ka'imi Fairbairn",
@@ -2909,7 +3090,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": ""
   },
   {
     "player_name": "Baltimore Ravens",
@@ -2925,7 +3107,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Bryce Young",
@@ -2941,7 +3124,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "T.J. Hockenson",
@@ -2957,7 +3141,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Tank Dell",
@@ -2973,7 +3158,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Zachariah Branch",
@@ -2989,7 +3175,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Jaydon Blue",
@@ -3005,7 +3192,8 @@
     "yards_per_carry": "3.4",
     "TDs": 1,
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": "38"
   },
   {
     "player_name": "Germie Bernard",
@@ -3021,7 +3209,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Braelon Allen",
@@ -3037,7 +3226,8 @@
     "yards_per_carry": "4.2",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": "18"
   },
   {
     "player_name": "Sean Tucker",
@@ -3053,7 +3243,8 @@
     "yards_per_carry": "3.7",
     "TDs": 8,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "86"
   },
   {
     "player_name": "Chris Bell",
@@ -3069,7 +3260,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Kimani Vidal",
@@ -3085,7 +3277,8 @@
     "yards_per_carry": "4.1",
     "TDs": 4,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "166"
   },
   {
     "player_name": "Jerry Jeudy",
@@ -3101,7 +3294,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "New England Patriots",
@@ -3117,13 +3311,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Cameron Dicker",
     "nfl_team": "LAC",
     "position": "K",
-    "adp": 106.0,
+    "adp": 106,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -3133,7 +3328,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Nicholas Singleton",
@@ -3149,7 +3345,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Keenan Allen",
@@ -3165,7 +3362,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 34
+    "age": 34,
+    "rush_att": ""
   },
   {
     "player_name": "Ryan Flournoy",
@@ -3181,13 +3379,14 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Cam Little",
     "nfl_team": "JAC",
     "position": "K",
-    "adp": 136.0,
+    "adp": 136,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -3197,7 +3396,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Pittsburgh Steelers",
@@ -3213,7 +3413,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Tre Tucker",
@@ -3229,7 +3430,8 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Kaelon Black",
@@ -3245,7 +3447,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Kaytron Allen",
@@ -3261,7 +3464,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Jason Myers",
@@ -3277,7 +3481,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 35
+    "age": 35,
+    "rush_att": ""
   },
   {
     "player_name": "Greg Dulcich",
@@ -3293,7 +3498,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Dontayvion Wicks",
@@ -3309,7 +3515,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Ray Davis",
@@ -3325,7 +3532,8 @@
     "yards_per_carry": "4.7",
     "TDs": 2,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "58"
   },
   {
     "player_name": "AJ Barner",
@@ -3341,7 +3549,8 @@
     "yards_per_carry": "",
     "TDs": 8,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Jordan James",
@@ -3357,13 +3566,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Aaron Rodgers",
     "nfl_team": "PIT",
     "position": "QB",
-    "adp": 169.0,
+    "adp": 169,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -3373,13 +3583,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 42
+    "age": 42,
+    "rush_att": ""
   },
   {
     "player_name": "Khalil Herbert",
     "nfl_team": "SF",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -3389,7 +3600,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Gunnar Helm",
@@ -3405,7 +3617,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Jacksonville Jaguars",
@@ -3421,7 +3634,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Tre Harris",
@@ -3437,7 +3651,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Jaylin Noel",
@@ -3453,7 +3668,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Kayshon Boutte",
@@ -3469,7 +3685,8 @@
     "yards_per_carry": "",
     "TDs": 7,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Eddy Pineiro",
@@ -3485,7 +3702,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Green Bay Packers",
@@ -3501,7 +3719,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "James Conner",
@@ -3517,7 +3736,8 @@
     "yards_per_carry": "3",
     "TDs": 2,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": "32"
   },
   {
     "player_name": "Isaac TeSlaa",
@@ -3533,13 +3753,14 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Najee Harris",
     "nfl_team": "NYG",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -3549,7 +3770,8 @@
     "yards_per_carry": "4.1",
     "TDs": "",
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Elijah Sarratt",
@@ -3565,7 +3787,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Geno Smith",
@@ -3581,7 +3804,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 35
+    "age": 35,
+    "rush_att": ""
   },
   {
     "player_name": "Ja'Kobi Lane",
@@ -3597,7 +3821,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Malachi Fields",
@@ -3613,7 +3838,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Jacoby Brissett",
@@ -3629,7 +3855,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 33
+    "age": 33,
+    "rush_att": ""
   },
   {
     "player_name": "Evan McPherson",
@@ -3645,7 +3872,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Malik Washington",
@@ -3661,7 +3889,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Antonio Williams",
@@ -3677,7 +3906,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Ted Hurst",
@@ -3693,7 +3923,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Kansas City Chiefs",
@@ -3709,13 +3940,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Buffalo Bills",
     "nfl_team": "BUF",
     "position": "DST",
-    "adp": 169.0,
+    "adp": 169,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -3725,7 +3957,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Cade Otton",
@@ -3741,7 +3974,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Rashod Bateman",
@@ -3757,7 +3991,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Andres Borregales",
@@ -3773,7 +4008,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Seth McGowan",
@@ -3789,7 +4025,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Fernando Mendoza",
@@ -3805,7 +4042,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "George Holani",
@@ -3821,7 +4059,8 @@
     "yards_per_carry": "3.1",
     "TDs": 1,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "27"
   },
   {
     "player_name": "Demond Claiborne",
@@ -3837,7 +4076,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Adam Randall",
@@ -3853,7 +4093,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Brandon Aiyuk",
@@ -3869,7 +4110,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Pat Freiermuth",
@@ -3885,7 +4127,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Cyrus Allen",
@@ -3901,13 +4144,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Bryce Lance",
     "nfl_team": "NO",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -3917,7 +4161,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Tyler Loop",
@@ -3933,7 +4178,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Tyquan Thornton",
@@ -3949,7 +4195,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Jake Bates",
@@ -3965,13 +4212,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Darren Waller",
     "nfl_team": "",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -3981,7 +4229,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 33
+    "age": 33,
+    "rush_att": ""
   },
   {
     "player_name": "Darnell Mooney",
@@ -3997,7 +4246,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Jaylen Wright",
@@ -4013,13 +4263,14 @@
     "yards_per_carry": "4.1",
     "TDs": 2,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": "70"
   },
   {
     "player_name": "Chase McLaughlin",
     "nfl_team": "TB",
     "position": "K",
-    "adp": 169.0,
+    "adp": 169,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4029,7 +4280,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Justice Hill",
@@ -4045,7 +4297,8 @@
     "yards_per_carry": "5.2",
     "TDs": 3,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": "18"
   },
   {
     "player_name": "Cooper Kupp",
@@ -4061,7 +4314,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 33
+    "age": 33,
+    "rush_att": ""
   },
   {
     "player_name": "Cairo Santos",
@@ -4077,7 +4331,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 34
+    "age": 34,
+    "rush_att": ""
   },
   {
     "player_name": "Emanuel Wilson",
@@ -4093,7 +4348,8 @@
     "yards_per_carry": "4",
     "TDs": 3,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "126"
   },
   {
     "player_name": "Eli Stowers",
@@ -4109,13 +4365,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Elic Ayomanor",
     "nfl_team": "TEN",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4125,7 +4382,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Devaughn Vele",
@@ -4141,7 +4399,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Tyreek Hill",
@@ -4157,7 +4416,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": ""
   },
   {
     "player_name": "Mason Taylor",
@@ -4173,7 +4433,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Troy Franklin",
@@ -4189,7 +4450,8 @@
     "yards_per_carry": "",
     "TDs": 6,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Harrison Mevis",
@@ -4205,13 +4467,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Detroit Lions",
     "nfl_team": "DET",
     "position": "DST",
-    "adp": 151.0,
+    "adp": 151,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4221,7 +4484,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Tory Horton",
@@ -4237,7 +4501,8 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Skyler Bell",
@@ -4253,7 +4518,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Chimere Dike",
@@ -4269,7 +4535,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Evan Engram",
@@ -4285,7 +4552,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Isaiah Davis",
@@ -4301,13 +4569,14 @@
     "yards_per_carry": "5.5",
     "TDs": 1,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "43"
   },
   {
     "player_name": "Tua Tagovailoa",
     "nfl_team": "ATL",
     "position": "QB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4317,7 +4586,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Harrison Butker",
@@ -4333,7 +4603,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Colby Parkinson",
@@ -4349,7 +4620,8 @@
     "yards_per_carry": "",
     "TDs": 9,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Ollie Gordon",
@@ -4365,7 +4637,8 @@
     "yards_per_carry": "2.8",
     "TDs": 4,
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": "70"
   },
   {
     "player_name": "David Njoku",
@@ -4381,7 +4654,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Jack Bech",
@@ -4397,7 +4671,8 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Samaje Perine",
@@ -4413,7 +4688,8 @@
     "yards_per_carry": "4.5",
     "TDs": 3,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": "84"
   },
   {
     "player_name": "Christian Kirk",
@@ -4429,7 +4705,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "New Orleans Saints",
@@ -4445,7 +4722,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Theo Johnson",
@@ -4461,13 +4739,14 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": "50"
   },
   {
     "player_name": "Charlie Kolar",
     "nfl_team": "LAC",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4477,7 +4756,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Chris Boswell",
@@ -4493,7 +4773,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 35
+    "age": 35,
+    "rush_att": ""
   },
   {
     "player_name": "Cleveland Browns",
@@ -4509,7 +4790,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "DJ Giddens",
@@ -4525,7 +4807,8 @@
     "yards_per_carry": "3.7",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": "26"
   },
   {
     "player_name": "Keon Coleman",
@@ -4541,7 +4824,8 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Mike Gesicki",
@@ -4557,7 +4841,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Ty Johnson",
@@ -4573,7 +4858,8 @@
     "yards_per_carry": "4",
     "TDs": 5,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": "50"
   },
   {
     "player_name": "Chris Brooks",
@@ -4589,7 +4875,8 @@
     "yards_per_carry": "4.4",
     "TDs": 0,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "28"
   },
   {
     "player_name": "Brashard Smith",
@@ -4605,7 +4892,8 @@
     "yards_per_carry": "3.4",
     "TDs": 1,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": "44"
   },
   {
     "player_name": "Jake Tonges",
@@ -4621,13 +4909,14 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Kaleb Johnson",
     "nfl_team": "PIT",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4637,7 +4926,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Roman Wilson",
@@ -4653,7 +4943,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Darnell Washington",
@@ -4669,7 +4960,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Wil Lutz",
@@ -4685,7 +4977,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": ""
   },
   {
     "player_name": "Michael Mayer",
@@ -4701,13 +4994,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Erick All",
     "nfl_team": "CIN",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4717,7 +5011,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Darius Slayton",
@@ -4733,13 +5028,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Max Klare",
     "nfl_team": "LA",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4749,7 +5045,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Kyle Williams",
@@ -4765,13 +5062,14 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Devin Neal",
     "nfl_team": "NO",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4781,7 +5079,8 @@
     "yards_per_carry": "3.6",
     "TDs": 2,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "57"
   },
   {
     "player_name": "Hollywood Brown",
@@ -4797,7 +5096,8 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Xavier Legette",
@@ -4813,7 +5113,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "San Francisco 49ers",
@@ -4829,13 +5130,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Demarcus Robinson",
     "nfl_team": "SF",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4845,7 +5147,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Kendre Miller",
@@ -4861,13 +5164,14 @@
     "yards_per_carry": "4.1",
     "TDs": 1,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "47"
   },
   {
     "player_name": "Oscar Delp",
     "nfl_team": "NO",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4877,7 +5181,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Trey Benson",
@@ -4893,7 +5198,8 @@
     "yards_per_carry": "5.5",
     "TDs": 0,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "29"
   },
   {
     "player_name": "J.J. McCarthy",
@@ -4909,13 +5215,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Brenen Thompson",
     "nfl_team": "LAC",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4925,13 +5232,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Marvin Mims",
     "nfl_team": "DEN",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4941,7 +5249,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Shedeur Sanders",
@@ -4957,13 +5266,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Michael Penix",
     "nfl_team": "ATL",
     "position": "QB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4973,13 +5283,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Malik Benson",
     "nfl_team": "LV",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -4989,13 +5300,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Phil Mafah",
     "nfl_team": "DAL",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5005,13 +5317,14 @@
     "yards_per_carry": "3.6",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": "5"
   },
   {
     "player_name": "Charlie Smyth",
     "nfl_team": "NO",
     "position": "K",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5021,13 +5334,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Joe Mixon",
     "nfl_team": "",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5037,7 +5351,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "LeQuint Allen",
@@ -5053,7 +5368,8 @@
     "yards_per_carry": "4",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": "24"
   },
   {
     "player_name": "Mack Hollins",
@@ -5069,7 +5385,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": ""
   },
   {
     "player_name": "Luke McCaffrey",
@@ -5085,13 +5402,14 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Deshaun Watson",
     "nfl_team": "CLE",
     "position": "QB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5101,7 +5419,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Atlanta Falcons",
@@ -5117,13 +5436,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Tai Felton",
     "nfl_team": "MIN",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5133,13 +5453,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Isaiah Bond",
     "nfl_team": "CLE",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5149,13 +5470,14 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Audric Estime",
     "nfl_team": "NO",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5165,7 +5487,8 @@
     "yards_per_carry": "4.3",
     "TDs": 1,
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": "46"
   },
   {
     "player_name": "Elijah Arroyo",
@@ -5181,7 +5504,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Malik Davis",
@@ -5197,7 +5521,8 @@
     "yards_per_carry": "4.8",
     "TDs": 2,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "52"
   },
   {
     "player_name": "Devin Singletary",
@@ -5213,13 +5538,14 @@
     "yards_per_carry": "3.7",
     "TDs": 5,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": "119"
   },
   {
     "player_name": "Kirk Cousins",
     "nfl_team": "LV",
     "position": "QB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5229,13 +5555,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 38
+    "age": 38,
+    "rush_att": ""
   },
   {
     "player_name": "Jerome Ford",
     "nfl_team": "WAS",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5245,13 +5572,14 @@
     "yards_per_carry": "3",
     "TDs": 0,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "24"
   },
   {
     "player_name": "Damien Martinez",
     "nfl_team": "GB",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5261,7 +5589,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Emari Demercado",
@@ -5277,13 +5606,14 @@
     "yards_per_carry": "7.1",
     "TDs": 1,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "44"
   },
   {
     "player_name": "Antonio Gibson",
     "nfl_team": "",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5293,7 +5623,8 @@
     "yards_per_carry": "4.2",
     "TDs": 1,
     "is_available": true,
-    "age": 64
+    "age": 64,
+    "rush_att": "25"
   },
   {
     "player_name": "Dawson Knox",
@@ -5309,7 +5640,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "DeMario Douglas",
@@ -5325,7 +5657,8 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Isaac Guerendo",
@@ -5341,7 +5674,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Trevor Etienne",
@@ -5357,7 +5691,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": "270"
   },
   {
     "player_name": "Andrei Iosivas",
@@ -5373,7 +5708,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Zavion Thomas",
@@ -5389,7 +5725,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Carolina Panthers",
@@ -5405,7 +5742,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Will Shipley",
@@ -5421,13 +5759,14 @@
     "yards_per_carry": "3.5",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": "14"
   },
   {
     "player_name": "Jaleel McLaughlin",
     "nfl_team": "DEN",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5437,7 +5776,8 @@
     "yards_per_carry": "4.9",
     "TDs": 1,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": "45"
   },
   {
     "player_name": "Dyami Brown",
@@ -5453,13 +5793,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Michael Carter",
     "nfl_team": "TEN",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5469,7 +5810,8 @@
     "yards_per_carry": "3.6",
     "TDs": 1,
     "is_available": true,
-    "age": 65
+    "age": 65,
+    "rush_att": "92"
   },
   {
     "player_name": "Eli Raridon",
@@ -5485,13 +5827,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Deion Burks",
     "nfl_team": "IND",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5501,13 +5844,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Jarquez Hunter",
     "nfl_team": "LA",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5517,7 +5861,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Tahj Brooks",
@@ -5533,13 +5878,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Kendrick Bourne",
     "nfl_team": "ARI",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5549,7 +5895,8 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Carson Beck",
@@ -5565,7 +5912,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Zane Gonzalez",
@@ -5581,13 +5929,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Eli Heidenreich",
     "nfl_team": "PIT",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5597,13 +5946,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Jalen Royals",
     "nfl_team": "KC",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5613,13 +5963,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Chris Brazzell",
     "nfl_team": "CAR",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5629,13 +5980,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 50
+    "age": 50,
+    "rush_att": ""
   },
   {
     "player_name": "Kevin Coleman",
     "nfl_team": "MIA",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5645,7 +5997,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "KaVontae Turpin",
@@ -5661,13 +6014,14 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Raheim Sanders",
     "nfl_team": "CLE",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5677,13 +6031,14 @@
     "yards_per_carry": "3.4",
     "TDs": 1,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "27"
   },
   {
     "player_name": "Colbie Young",
     "nfl_team": "CIN",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5693,7 +6048,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Justin Fields",
@@ -5709,7 +6065,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Joshua Palmer",
@@ -5725,13 +6082,14 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Jared Wiley",
     "nfl_team": "KC",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5741,7 +6099,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Jaylin Lane",
@@ -5757,7 +6116,8 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Cole Kmet",
@@ -5773,7 +6133,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Odell Beckham",
@@ -5789,13 +6150,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 33
+    "age": 33,
+    "rush_att": ""
   },
   {
     "player_name": "Nate Boerkircher",
     "nfl_team": "JAC",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5805,13 +6167,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Kareem Hunt",
     "nfl_team": "",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5821,13 +6184,14 @@
     "yards_per_carry": "3.7",
     "TDs": 9,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": "163"
   },
   {
     "player_name": "Cedric Tillman",
     "nfl_team": "CLE",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5837,7 +6201,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Noah Gray",
@@ -5853,13 +6218,14 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Justin Joly",
     "nfl_team": "DEN",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5869,7 +6235,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Ty Simpson",
@@ -5885,7 +6252,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Tampa Bay Buccaneers",
@@ -5901,13 +6269,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Julian Hill",
     "nfl_team": "NE",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5917,7 +6286,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": "18"
   },
   {
     "player_name": "Devontez Walker",
@@ -5933,13 +6303,14 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Tez Johnson",
     "nfl_team": "TB",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5949,7 +6320,8 @@
     "yards_per_carry": "",
     "TDs": 5,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "50"
   },
   {
     "player_name": "Indianapolis Colts",
@@ -5965,13 +6337,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Daniel Bellinger",
     "nfl_team": "TEN",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -5981,7 +6354,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Mac Jones",
@@ -5997,13 +6371,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Ben Sinnott",
     "nfl_team": "WAS",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6013,7 +6388,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Chicago Bears",
@@ -6029,13 +6405,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Marcus Mariota",
     "nfl_team": "WAS",
     "position": "QB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6045,7 +6422,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": ""
   },
   {
     "player_name": "J'Mari Taylor",
@@ -6061,13 +6439,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": "323"
   },
   {
     "player_name": "Marlin Klein",
     "nfl_team": "HOU",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6077,13 +6456,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Will Reichard",
     "nfl_team": "MIN",
     "position": "K",
-    "adp": 166.0,
+    "adp": 166,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6093,13 +6473,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Ja'Tavion Sanders",
     "nfl_team": "CAR",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6109,13 +6490,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Taylen Green",
     "nfl_team": "CLE",
     "position": "QB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6125,13 +6507,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Olamide Zaccheaus",
     "nfl_team": "ATL",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6141,7 +6524,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Tennessee Titans",
@@ -6157,7 +6541,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "New York Giants",
@@ -6173,13 +6558,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Cade Klubnik",
     "nfl_team": "NYJ",
     "position": "QB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6189,13 +6575,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Calvin Austin",
     "nfl_team": "NYG",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6205,7 +6592,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Tyler Higbee",
@@ -6221,7 +6609,8 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 33
+    "age": 33,
+    "rush_att": ""
   },
   {
     "player_name": "Jalen Tolbert",
@@ -6237,13 +6626,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Konata Mumpfield",
     "nfl_team": "LA",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6253,13 +6643,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Jonnu Smith",
     "nfl_team": "",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6269,13 +6660,14 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Ashton Dulin",
     "nfl_team": "IND",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6285,7 +6677,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Roman Hemby",
@@ -6301,13 +6694,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Anthony Richardson",
     "nfl_team": "IND",
     "position": "QB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6317,13 +6711,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Xavier Hutchinson",
     "nfl_team": "HOU",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6333,13 +6728,14 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Will Kacmarek",
     "nfl_team": "MIA",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6349,13 +6745,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Dont'e Thornton",
     "nfl_team": "LV",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6365,13 +6762,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Dameon Pierce",
     "nfl_team": "PHI",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6381,13 +6779,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Terrell Jennings",
     "nfl_team": "NE",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6397,13 +6796,14 @@
     "yards_per_carry": "3.2",
     "TDs": "",
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": "23"
   },
   {
     "player_name": "Jam Miller",
     "nfl_team": "NE",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6413,7 +6813,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Savion Williams",
@@ -6429,7 +6830,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Las Vegas Raiders",
@@ -6445,7 +6847,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "New York Jets",
@@ -6461,13 +6864,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Austin Hooper",
     "nfl_team": "ATL",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6477,13 +6881,14 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Michael Trigg",
     "nfl_team": "DAL",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6493,13 +6898,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Emmanuel Henderson",
     "nfl_team": "SEA",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6509,7 +6915,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Dallas Cowboys",
@@ -6525,7 +6932,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Jawhar Jordan",
@@ -6541,7 +6949,8 @@
     "yards_per_carry": "4.5",
     "TDs": 0,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": "43"
   },
   {
     "player_name": "Miami Dolphins",
@@ -6557,7 +6966,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Washington Commanders",
@@ -6573,7 +6983,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Jahan Dotson",
@@ -6589,7 +7000,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Cincinnati Bengals",
@@ -6605,7 +7017,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Arizona Cardinals",
@@ -6621,7 +7034,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "Zonovan Knight",
@@ -6637,13 +7051,14 @@
     "yards_per_carry": "3.3",
     "TDs": 5,
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": "82"
   },
   {
     "player_name": "Van Jefferson",
     "nfl_team": "WAS",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6653,7 +7068,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Kalif Raymond",
@@ -6669,13 +7085,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": ""
   },
   {
     "player_name": "Austin Ekeler",
     "nfl_team": "",
     "position": "RB",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6685,13 +7102,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "John Metchie",
     "nfl_team": "CAR",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6701,13 +7119,14 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Isaiah Hodgins",
     "nfl_team": "NYG",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6717,7 +7136,8 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Eric McAlister",
@@ -6733,13 +7153,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "DeAndre Hopkins",
     "nfl_team": "",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6749,13 +7170,14 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 34
+    "age": 34,
+    "rush_att": ""
   },
   {
     "player_name": "Tutu Atwell",
     "nfl_team": "MIA",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6765,13 +7187,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Brandin Cooks",
     "nfl_team": "",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6781,7 +7204,8 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": 32
+    "age": 32,
+    "rush_att": ""
   },
   {
     "player_name": "Le'Veon Moss",
@@ -6797,13 +7221,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": ""
+    "age": "",
+    "rush_att": ""
   },
   {
     "player_name": "KeAndre Lambert-Smith",
     "nfl_team": "LAC",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6813,7 +7238,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Treylon Burks",
@@ -6829,13 +7255,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Tanner Koziol",
     "nfl_team": "JAC",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6845,13 +7272,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Reggie Virgil",
     "nfl_team": "ARI",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6861,13 +7289,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Kendrick Law",
     "nfl_team": "DET",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6877,7 +7306,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Efton Chism",
@@ -6893,13 +7323,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Kaden Wetjen",
     "nfl_team": "PIT",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6909,13 +7340,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "CJ Daniels",
     "nfl_team": "LA",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6925,13 +7357,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Noah Fant",
     "nfl_team": "NO",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6941,13 +7374,14 @@
     "yards_per_carry": "",
     "TDs": 3,
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Nick Westbrook-Ikhine",
     "nfl_team": "IND",
     "position": "WR",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6957,13 +7391,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Foster Moreau",
     "nfl_team": "HOU",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6973,13 +7408,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Sam Roush",
     "nfl_team": "CHI",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -6989,7 +7425,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Luke Musgrave",
@@ -7005,7 +7442,8 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Caullin Lacy",
@@ -7021,13 +7459,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "John Bates",
     "nfl_team": "WAS",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -7037,7 +7476,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 28
+    "age": 28,
+    "rush_att": ""
   },
   {
     "player_name": "Dillon Bell",
@@ -7053,7 +7493,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 22
+    "age": 22,
+    "rush_att": ""
   },
   {
     "player_name": "Elijah Higgins",
@@ -7069,13 +7510,14 @@
     "yards_per_carry": "",
     "TDs": 0,
     "is_available": true,
-    "age": 25
+    "age": 25,
+    "rush_att": ""
   },
   {
     "player_name": "Zach Ertz",
     "nfl_team": "",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -7085,13 +7527,14 @@
     "yards_per_carry": "",
     "TDs": 4,
     "is_available": true,
-    "age": 35
+    "age": 35,
+    "rush_att": ""
   },
   {
     "player_name": "Thomas Fidone",
     "nfl_team": "NYG",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -7101,13 +7544,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Taysom Hill",
     "nfl_team": "",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -7117,13 +7561,14 @@
     "yards_per_carry": "",
     "TDs": 1,
     "is_available": true,
-    "age": 35
+    "age": 35,
+    "rush_att": ""
   },
   {
     "player_name": "Matthew Hibner",
     "nfl_team": "BAL",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -7133,13 +7578,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 24
+    "age": 24,
+    "rush_att": ""
   },
   {
     "player_name": "Tommy Tremble",
     "nfl_team": "CAR",
     "position": "TE",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -7149,7 +7595,8 @@
     "yards_per_carry": "",
     "TDs": 2,
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Chad Ryland",
@@ -7165,7 +7612,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Jake Elliott",
@@ -7181,13 +7629,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Brandon McManus",
     "nfl_team": "",
     "position": "K",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -7197,13 +7646,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 35
+    "age": 35,
+    "rush_att": ""
   },
   {
     "player_name": "Blake Grupe",
     "nfl_team": "IND",
     "position": "K",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -7213,7 +7663,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 27
+    "age": 27,
+    "rush_att": ""
   },
   {
     "player_name": "Ryan Fitzgerald",
@@ -7229,13 +7680,14 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 26
+    "age": 26,
+    "rush_att": ""
   },
   {
     "player_name": "Daniel Carlson",
     "nfl_team": "",
     "position": "K",
-    "adp": 170.0,
+    "adp": 170,
     "cost": 0,
     "drafted_by": "",
     "is_2026_keeper": "False",
@@ -7245,7 +7697,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 31
+    "age": 31,
+    "rush_att": ""
   },
   {
     "player_name": "Nick Folk",
@@ -7261,7 +7714,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 41
+    "age": 41,
+    "rush_att": ""
   },
   {
     "player_name": "Tyler Bass",
@@ -7277,7 +7731,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 29
+    "age": 29,
+    "rush_att": ""
   },
   {
     "player_name": "Joey Slye",
@@ -7293,7 +7748,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": ""
   },
   {
     "player_name": "Trey Smack",
@@ -7309,7 +7765,8 @@
     "yards_per_carry": "",
     "TDs": "",
     "is_available": true,
-    "age": 23
+    "age": 23,
+    "rush_att": ""
   },
   {
     "player_name": "Nick Chubb",
@@ -7325,6 +7782,7 @@
     "yards_per_carry": "4.2",
     "TDs": 3,
     "is_available": true,
-    "age": 30
+    "age": 30,
+    "rush_att": "136"
   }
 ]

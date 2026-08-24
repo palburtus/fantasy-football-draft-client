@@ -10,9 +10,14 @@ class Home extends React.Component{
     tagColors = {
         'Target': '#1B5E20',      // dark green
         'Value': '#4CAF50',        // light green
+        '2nd-Year': '#9CCC65',     // greenish-yellow
         '3rd-Year': '#9CCC65',     // greenish-yellow
-        'Rookie': '#FFC107',       // yellow
+        'Upside': '#D4E157',       // yellow-green
+        'Rookie': '#1565C0',       // blue
+        'Price has to be Right': '#1565C0',  // blue
         'TD Regression to Mean': '#FF7043',  // yellowish red
+        'Lottery Ticket': '#7B1FA2',  // purple
+        'Handcuff': '#AB47BC',         // light purple
         'Reach': '#F44336',        // red
         'Avoid': '#C62828'         // dark red
     }
@@ -269,6 +274,7 @@ class Home extends React.Component{
                             <th scope="col">ADP</th>
                             <th scope="col">Air Yards</th>
                             <OverlayTrigger placement="bottom" overlay={<Tooltip id="wopr-tip">WOPR (Weighted Opportunity Rating) — combines target share and air yards share; a WOPR above 0.40 with mediocre stats signals unrealized upside</Tooltip>}><th scope='col' style={{cursor:'help'}}>WOPR</th></OverlayTrigger>
+                            <th scope="col">Rush Att</th>
                             <th scope="col">Rush Yards</th>
                             <th scope="col">YP Carry</th>
                             <th scope="col">TDs</th>
@@ -341,6 +347,7 @@ class Home extends React.Component{
                                                     <td>{item.adp}</td>
                                                     <td>{item.air_yards}</td>
                                                     <td>{item.wopr}</td>
+                                                    <td>{item.rush_att}</td>
                                                     <td>{item.rush_attempts}</td>
                                                     <td>{item.yards_per_carry}</td>
                                                     <td>{item.TDs}</td>
@@ -365,6 +372,7 @@ class Home extends React.Component{
                                             <td>{item.adp}</td>
                                             <td>{item.air_yards}</td>
                                             <td>{item.wopr}</td>
+                                            <td>{item.rush_att}</td>
                                             <td>{item.rush_attempts}</td>
                                             <td>{item.yards_per_carry}</td>
                                             <td>{item.TDs}</td>
