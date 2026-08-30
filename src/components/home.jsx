@@ -15,6 +15,8 @@ class Home extends React.Component{
         'Upside': '#D4E157',       // yellow-green
         'Rookie': '#1565C0',       // blue
         'Price has to be Right': '#1565C0',  // blue
+        'High-Floor / Low Ceiling': '#1565C0', // blue
+        'Limited Upside': '#FFB300',           // yellow-orange
         'TD Regression to Mean': '#FF7043',  // yellowish red
         'Lottery Ticket': '#7B1FA2',  // purple
         'Handcuff': '#AB47BC',         // light purple
@@ -317,9 +319,10 @@ class Home extends React.Component{
                                         
                                         let note = this.state.notesMap.get(item.player_name);
                                         const { tags, noteText } = this.parseTagsFromNote(note);
+                                        const tagOrder = Object.keys(this.tagColors);
                                         const tagDisplay = (
                                             <div style={{display: 'flex', flexWrap: 'wrap', gap: '4px'}}>
-                                                {Array.from(tags).map(t => (
+                                                {Array.from(tags).sort((a, b) => tagOrder.indexOf(a) - tagOrder.indexOf(b)).map(t => (
                                                     <span key={t} style={{
                                                         padding: '4px 8px',
                                                         borderRadius: '16px',
