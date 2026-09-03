@@ -12,6 +12,7 @@ class Home extends React.Component{
         'Value': '#4CAF50',        // light green
         '2nd-Year': '#9CCC65',     // greenish-yellow
         '3rd-Year': '#9CCC65',     // greenish-yellow
+        'Servicable': '#B8D75E',   // halfway between 3rd-Year green and Upside yellow-green
         'Upside': '#D4E157',       // yellow-green
         'Rookie': '#1565C0',       // blue
         'Price has to be Right': '#1565C0',  // blue
