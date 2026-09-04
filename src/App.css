@@ -35,7 +35,7 @@
 }
 
 .tableFixHead          { overflow-y: auto; height: 100px; }
-.tableFixHead thead th { position: sticky; top: 20px; }
+.tableFixHead thead th { position: sticky; top: var(--controls-height, 0px); background: #eee; z-index: 90; }
 
 /* Just common table stuff. Really. */
 table  { border-collapse: collapse; width: 100%; }
@@ -85,4 +85,13 @@ tr:hover td {
 
 .availability-checkbox {
   margin-right: 8px;
+}
+
+.pinn-form {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e0e0e0;
 }

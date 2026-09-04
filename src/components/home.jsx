@@ -41,9 +41,11 @@ class Home extends React.Component{
             filterPosition: 'ALL',
             activeYear: 2026,
             dataObj: getDataForYear(2026),
-            showOnlyAvailable: false
+            showOnlyAvailable: false,
+            controlsHeight: 0
         }
         
+        this.controlsRef = React.createRef();
         this.openNotes = this.openNotes.bind(this);
         this.saveNote = this.saveNote.bind(this);
         this.dismissNote = this.dismissNote.bind(this);
@@ -53,10 +55,28 @@ class Home extends React.Component{
         this.setDrafted = this.setDrafted.bind(this);
         this.toggleShowOnlyAvailable = this.toggleShowOnlyAvailable.bind(this);
         this.toggleTag = this.toggleTag.bind(this);
+        this.updateControlsHeight = this.updateControlsHeight.bind(this);
     }
 
     componentDidMount(){
         this.loadNotes(this.state.activeYear);
+        this.updateControlsHeight();
+        window.addEventListener('resize', this.updateControlsHeight);
+    }
+
+    componentWillUnmount(){
+        window.removeEventListener('resize', this.updateControlsHeight);
+    }
+
+    componentDidUpdate(){
+        this.updateControlsHeight();
+    }
+
+    updateControlsHeight(){
+        const height = this.controlsRef.current ? this.controlsRef.current.offsetHeight : 0;
+        if(height && height !== this.state.controlsHeight){
+            this.setState({ controlsHeight: height });
+        }
     }
 
     loadNotes(year){
@@ -230,7 +250,8 @@ class Home extends React.Component{
         
 
         return(
-            <div className="form-inline sticky-top pinn-form">
+            <div style={{'--controls-height': `${this.state.controlsHeight}px`}}>
+            <div className="form-inline sticky-top pinn-form" ref={this.controlsRef}>
                 <Form className="draft-controls-form">
                     <Row className="draft-controls align-items-center">
                         <Col xs={"auto"} className="draft-year-control d-flex align-items-center gap-2">
@@ -264,8 +285,7 @@ class Home extends React.Component{
                         </Col>
                     </Row>
                 </Form>
-           
-                
+            </div>
 
                 <table className="table tableFixHead">
                     <thead>
@@ -446,7 +466,6 @@ class Home extends React.Component{
                     </Button>
                     </Modal.Footer>
                 </Modal>
-             
 
             </div>
         );
