@@ -19,6 +19,7 @@ class Home extends React.Component{
         'High-Floor / Low Ceiling': '#1565C0', // blue
         'Limited Upside': '#FFB300',           // yellow-orange
         'TD Regression to Mean': '#FF7043',  // yellowish red
+        'Stash': '#731FAB',  // bluer purple
         'Lottery Ticket': '#7B1FA2',  // purple
         'Handcuff': '#AB47BC',         // light purple
         'Reach': '#F44336',        // red
