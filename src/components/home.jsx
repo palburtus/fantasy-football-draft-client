@@ -1,6 +1,6 @@
 import React from 'react';
 import { availableYears, getDataForYear } from '../yearData';
-import { Modal, Button, Row, Col, OverlayTrigger, Tooltip} from 'react-bootstrap';
+import { Modal, Button, Row, Col, OverlayTrigger, Tooltip, Dropdown} from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.css';
 import * as notesRepository from '../firebaseFirestoreRepository.js';
@@ -37,6 +37,7 @@ class Home extends React.Component{
             currentNotePlayer: '',
             currentNote: '',
             selectedTags: new Set(),
+            filterTags: new Set(),
             playerSearchValue: '',
             filterPosition: 'ALL',
             activeYear: 2026,
@@ -55,6 +56,9 @@ class Home extends React.Component{
         this.setDrafted = this.setDrafted.bind(this);
         this.toggleShowOnlyAvailable = this.toggleShowOnlyAvailable.bind(this);
         this.toggleTag = this.toggleTag.bind(this);
+        this.toggleFilterTag = this.toggleFilterTag.bind(this);
+        this.clearFilterTags = this.clearFilterTags.bind(this);
+        this.matchesTagFilter = this.matchesTagFilter.bind(this);
         this.updateControlsHeight = this.updateControlsHeight.bind(this);
     }
 
@@ -126,6 +130,7 @@ class Home extends React.Component{
                 filterPosition: 'ALL',
                 showOnlyAvailable: false,
                 selectedTags: new Set(),
+                filterTags: new Set(),
                 isEditingNotes: false
           });
           this.loadNotes(year);
@@ -170,6 +175,27 @@ class Home extends React.Component{
             newTags.add(tag);
         }
         this.setState({ selectedTags: newTags });
+    }
+
+    toggleFilterTag(tag) {
+        const newTags = new Set(this.state.filterTags);
+        if (newTags.has(tag)) {
+            newTags.delete(tag);
+        } else {
+            newTags.add(tag);
+        }
+        this.setState({ filterTags: newTags });
+    }
+
+    clearFilterTags() {
+        this.setState({ filterTags: new Set() });
+    }
+
+    matchesTagFilter(playerName) {
+        if (this.state.filterTags.size === 0) return true;
+        const note = this.state.notesMap.get(playerName);
+        const { tags } = this.parseTagsFromNote(note);
+        return Array.from(this.state.filterTags).some(t => tags.has(t));
     }
 
     saveNote(){
@@ -278,6 +304,42 @@ class Home extends React.Component{
                             </select>
                         </Col>
                         <Col xs={"auto"}>
+                            <Dropdown autoClose="outside">
+                                <Dropdown.Toggle variant="outline-secondary" id="tag-filter-dropdown">
+                                    Tags{this.state.filterTags.size > 0 ? ` (${this.state.filterTags.size})` : ''}
+                                </Dropdown.Toggle>
+                                <Dropdown.Menu style={{padding: '12px', maxWidth: '320px'}}>
+                                    <div style={{display: 'flex', flexWrap: 'wrap', gap: '6px'}}>
+                                        {Object.keys(this.tagColors).map(tag => (
+                                            <button
+                                                key={tag}
+                                                type="button"
+                                                onClick={() => this.toggleFilterTag(tag)}
+                                                style={{
+                                                    padding: '4px 10px',
+                                                    borderRadius: '16px',
+                                                    border: '1px solid #999',
+                                                    backgroundColor: this.state.filterTags.has(tag) ? this.tagColors[tag] : '#f8f9fa',
+                                                    color: this.state.filterTags.has(tag) ? 'white' : 'black',
+                                                    cursor: 'pointer',
+                                                    fontSize: '12px',
+                                                    fontWeight: this.state.filterTags.has(tag) ? 'bold' : 'normal',
+                                                    whiteSpace: 'nowrap'
+                                                }}
+                                            >
+                                                {tag}
+                                            </button>
+                                        ))}
+                                    </div>
+                                    {this.state.filterTags.size > 0 &&
+                                        <div style={{marginTop: '10px', textAlign: 'right'}}>
+                                            <button type="button" className="btn btn-sm btn-link" onClick={this.clearFilterTags}>Clear tags</button>
+                                        </div>
+                                    }
+                                </Dropdown.Menu>
+                            </Dropdown>
+                        </Col>
+                        <Col xs={"auto"}>
                             <input className="form-check-input availability-checkbox" type="checkbox" id="autoSizingCheck2" onChange={this.toggleShowOnlyAvailable} checked={this.state.showOnlyAvailable}/>
                             <label className="form-check-label" htmlFor="autoSizingCheck2">
                             Show Available Only?
@@ -314,7 +376,7 @@ class Home extends React.Component{
                                 
                                 if(item.player_name.toLowerCase().includes(this.state.playerSearchValue.toLowerCase())){
                                     
-                                    if(item.position === this.state.filterPosition || this.state.filterPosition === 'ALL'){
+                                    if((item.position === this.state.filterPosition || this.state.filterPosition === 'ALL') && this.matchesTagFilter(item.player_name)){
                                         
                                         
                                         let costCell = item.cost;

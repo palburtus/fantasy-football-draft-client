@@ -1,0 +1,6 @@
+module Pods_FantasyFootballDraft {
+  umbrella header "Pods-FantasyFootballDraft-umbrella.h"
+
+  export *
+  module * { export * }
+}

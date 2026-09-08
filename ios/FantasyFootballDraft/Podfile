@@ -1,0 +1,30 @@
+# Podfile for Fantasy Football Draft iOS
+
+platform :ios, '15.0'
+
+target 'FantasyFootballDraft' do
+  # Use modular headers for Swift compatibility
+  use_modular_headers!
+  
+  # SwiftUI is built-in, no need to add it
+  
+  # Firebase for real-time data and authentication
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  
+  # Optional networking library
+  pod 'Alamofire', '~> 5.8'
+end
+
+# Single post_install hook for all configuration
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+      config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)', 'FIREBASE_FIRESTORE_EMULATOR_PORT=8080']
+    end
+  end
+end
+
